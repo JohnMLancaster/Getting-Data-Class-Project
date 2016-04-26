@@ -1,0 +1,76 @@
+HAR Statistics Dataset							
+DESCRIPTION	"Tables of experimental observations collected by wearable device. For collection methodology and processing see ""COLLECTION METHODOLOGY"" in the README.md file  "						
+							
+Column Number	Variable Name	Measurement of / Description	Direction 	Statistic used in Variable	Unit of Measurement*	Time Series	Frequency Domain Signal
+1	obs	Observation identification number (primary key)					
+2	tbodylinearaccelmeanx	Body linear acceleration	along X-axis	Mean	distance / second squared	TRUE	FALSE
+3	tbodylinearaccelmeany	Body linear acceleration	along Y-axis	Mean	distance / second squared	TRUE	FALSE
+4	tbodylinearaccelmeanz	Body linear acceleration	along Z-axis	Mean	distance / second squared	TRUE	FALSE
+5	tbodylinearaccelstdx	Body linear acceleration	along X-axis	Standard deviation	distance / second squared	TRUE	FALSE
+6	tbodylinearaccelstdy	Body linear acceleration	along Y-axis	Standard deviation	distance / second squared	TRUE	FALSE
+7	tbodylinearaccelstdz	Body linear acceleration	along Z-axis	Standard deviation	distance / second squared	TRUE	FALSE
+8	tgravitylinearaccelmeanx	Gravity linear acceleration	along X-axis	Mean	distance / second squared	TRUE	FALSE
+9	tgravitylinearaccelmeany	Gravity linear acceleration	along Y-axis	Mean	distance / second squared	TRUE	FALSE
+10	tgravitylinearaccelmeanz	Gravity linear acceleration	along Z-axis	Mean	distance / second squared	TRUE	FALSE
+11	tgravitylinearaccelstdx	Gravity linear acceleration	along X-axis	Standard deviation	distance / second squared	TRUE	FALSE
+12	tgravitylinearaccelstdy	Gravity linear acceleration	along Y-axis	Standard deviation	distance / second squared	TRUE	FALSE
+13	tgravitylinearaccelstdz	Gravity linear acceleration	along Z-axis	Standard deviation	distance / second squared	TRUE	FALSE
+14	tbodylinearacceljerkmeanx	Body linear acceleration jerk	along X-axis	Mean	distance / second squared	TRUE	FALSE
+15	tbodylinearacceljerkmeany	Body linear acceleration jerk	along Y-axis	Mean	distance / second squared	TRUE	FALSE
+16	tbodylinearacceljerkmeanz	Body linear acceleration jerk	along Z-axis	Mean	distance / second squared	TRUE	FALSE
+17	tbodylinearacceljerkstdx	Body linear acceleration jerk	along X-axis	Standard deviation	distance / second squared	TRUE	FALSE
+18	tbodylinearacceljerkstdy	Body linear acceleration jerk	along Y-axis	Standard deviation	distance / second squared	TRUE	FALSE
+19	tbodylinearacceljerkstdz	Body linear acceleration jerk	along Z-axis	Standard deviation	distance / second squared	TRUE	FALSE
+20	tbodyangularvelocitymeanx	Body angualr velocity	along X-axis	Mean	distance / second squared	TRUE	FALSE
+21	tbodyangularvelocitymeany	Body angualr velocity	along Y-axis	Mean	distance / second squared	TRUE	FALSE
+22	tbodyangularvelocitymeanz	Body angualr velocity	along Z-axis	Mean	distance / second squared	TRUE	FALSE
+23	tbodyangularvelocitystdx	Body angualr velocity	along X-axis	Standard deviation	distance / second squared	TRUE	FALSE
+24	tbodyangularvelocitystdy	Body angualr velocity	along Y-axis	Standard deviation	distance / second squared	TRUE	FALSE
+25	tbodyangularvelocitystdz	Body angualr velocity	along Z-axis	Standard deviation	distance / second squared	TRUE	FALSE
+26	tbodyangularvelocityjerkmeanx	Body angualr velocity jerk	along X-axis	Mean	distance / second squared	TRUE	FALSE
+27	tbodyangularvelocityjerkmeany	Body angualr velocity jerk	along Y-axis	Mean	distance / second squared	TRUE	FALSE
+28	tbodyangularvelocityjerkmeanz	Body angualr velocity jerk	along Z-axis	Mean	distance / second squared	TRUE	FALSE
+29	tbodyangularvelocityjerkstdx	Body angualr velocity jerk	along X-axis	Standard deviation	distance / second squared	TRUE	FALSE
+30	tbodyangularvelocityjerkstdy	Body angualr velocity jerk	along Y-axis	Standard deviation	distance / second squared	TRUE	FALSE
+31	tbodyangularvelocityjerkstdz	Body angualr velocity jerk	along Z-axis	Standard deviation	distance / second squared	TRUE	FALSE
+32	tbodylinearaccelmagnitudemean	Body linear acceleration magnitude		Mean	distance / second squared	TRUE	FALSE
+33	tbodylinearaccelmagnitudestd	Body linear acceleration magnitude		Standard deviation	distance / second squared	TRUE	FALSE
+34	tgravitylinearaccelmagnitudemean	Gravity linear acceleration magnitude		Mean	distance / second squared	TRUE	FALSE
+35	tgravitylinearaccelmagnitudestd	Gravity linear acceleration magnitude		Standard deviation	distance / second squared	TRUE	FALSE
+36	tbodylinearacceljerkmagnitudemean	Body linear acceleration jerk magnitude		Mean	distance / second squared	TRUE	FALSE
+37	tbodylinearacceljerkmagnitudestd	Body linear acceleration jerk magnitude		Standard deviation	distance / second squared	TRUE	FALSE
+38	tbodyangularvelocitymagnitudemean	Body angualr velocity magnitude		Mean	distance / second squared	TRUE	FALSE
+39	tbodyangularvelocitymagnitudestd	Body angualr velocity magnitude		Standard deviation	distance / second squared	TRUE	FALSE
+40	tbodyangularvelocityjerkmagnitudemean	Body angualr velocity jerk magnitude		Mean	distance / second squared	TRUE	FALSE
+41	tbodyangularvelocityjerkmagnitudestd	Body angualr velocity jerk magnitude		Standard deviation	distance / second squared	TRUE	FALSE
+42	fbodylinearaccelmeanx	Body linear acceleration	along X-axis	Mean	distance / second squared	FALSE	TRUE
+43	fbodylinearaccelmeany	Body linear acceleration	along Y-axis	Mean	distance / second squared	FALSE	TRUE
+44	fbodylinearaccelmeanz	Body linear acceleration	along Z-axis	Mean	distance / second squared	FALSE	TRUE
+45	fbodylinearaccelstdx	Body linear acceleration	along X-axis	Standard deviation	distance / second squared	FALSE	TRUE
+46	fbodylinearaccelstdy	Body linear acceleration	along Y-axis	Standard deviation	distance / second squared	FALSE	TRUE
+47	fbodylinearaccelstdz	Body linear acceleration	along Z-axis	Standard deviation	distance / second squared	FALSE	TRUE
+48	fbodylinearacceljerkmeanx	Body linear acceleration jerk	along X-axis	Mean	distance / second squared	FALSE	TRUE
+49	fbodylinearacceljerkmeany	Body linear acceleration jerk	along Y-axis	Mean	distance / second squared	FALSE	TRUE
+50	fbodylinearacceljerkmeanz	Body linear acceleration jerk	along Z-axis	Mean	distance / second squared	FALSE	TRUE
+51	fbodylinearacceljerkstdx	Body linear acceleration jerk	along X-axis	Standard deviation	distance / second squared	FALSE	TRUE
+52	fbodylinearacceljerkstdy	Body linear acceleration jerk	along Y-axis	Standard deviation	distance / second squared	FALSE	TRUE
+53	fbodylinearacceljerkstdz	Body linear acceleration jerk	along Z-axis	Standard deviation	distance / second squared	FALSE	TRUE
+54	fbodyangularvelocitymeanx	Body angualr velocity	along X-axis	Mean	distance / second squared	FALSE	TRUE
+55	fbodyangularvelocitymeany	Body angualr velocity	along Y-axis	Mean	distance / second squared	FALSE	TRUE
+56	fbodyangularvelocitymeanz	Body angualr velocity	along Z-axis	Mean	distance / second squared	FALSE	TRUE
+57	fbodyangularvelocitystdx	Body angualr velocity	along X-axis	Standard deviation	distance / second squared	FALSE	TRUE
+58	fbodyangularvelocitystdy	Body angualr velocity	along Y-axis	Standard deviation	distance / second squared	FALSE	TRUE
+59	fbodyangularvelocitystdz	Body angualr velocity	along Z-axis	Standard deviation	distance / second squared	FALSE	TRUE
+60	fbodylinearaccelmagnitudemean	Body linear acceleration magnitude		Mean	distance / second squared	FALSE	TRUE
+61	fbodylinearaccelmagnitudestd	Body linear acceleration magnitude		Standard deviation	distance / second squared	FALSE	TRUE
+62	fbodybodylinearacceljerkmagnitudemean	Body body linear acceleration jerk magnitude		Mean	distance / second squared	FALSE	TRUE
+63	fbodybodylinearacceljerkmagnitudestd	Body body linear acceleration jerk magnitude		Standard deviation	distance / second squared	FALSE	TRUE
+64	fbodybodyangularvelocitymagnitudemean	Body body angular velocity magnitude		Mean	distance / second squared	FALSE	TRUE
+65	fbodybodyangularvelocitymagnitudestd	Body body angular velocity magnitude		Standard deviation	distance / second squared	FALSE	TRUE
+66	fbodybodyangularvelocityjerkmagnitudemean	Body body angular velocity jerk magnitude		Mean	distance / second squared	FALSE	TRUE
+67	fbodybodyangularvelocityjerkmagnitudestd	Body body angular velocity jerk magnitude		Standard deviation	distance / second squared	FALSE	TRUE
+68	datasource	"Was data from the testing or training set. Values: ""TRAIN"", ""TEST"""					
+69	activity	Subject identification key (join key)					
+70	subject	Activity type key (join key)					
+							
+							
