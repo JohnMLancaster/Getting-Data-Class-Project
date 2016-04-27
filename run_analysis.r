@@ -243,7 +243,8 @@ harMeans_ds <- merge(harMeans_ds, ddply(h2, 'subject', summarize,fbodybodyangula
 harMeans_ds <- merge(harMeans_ds, ddply(h2, 'subject', summarize,fbodybodyangularvelocityjerkmagnitudestd_bysubject = mean(fbodybodyangularvelocityjerkmagnitudestd)))
 
 #write hatMeans_ds to work directory and clean up
-write.csv(harMeans_ds, "./harMerans_ds.csv")
+write.csv(harMeans_ds, "./harMeans_ds.csv")
+write.table(harMEans_ds, file = "/.harMeans.txt", row.names = FALSE)
 rm(h2)
 
 
